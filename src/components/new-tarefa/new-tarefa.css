@@ -1,0 +1,27 @@
+#inputadd{
+    width: 90%;
+    margin-left: 2%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    margin-top: 2%;
+    width: 60%;
+    height: 5vh;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+}
+
+input::placeholder{
+    color: #001e1d;
+}
+
+button{
+    margin-top: 2%;
+}

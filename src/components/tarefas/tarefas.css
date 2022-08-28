@@ -1,0 +1,20 @@
+.tarefa{
+  width: 90%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+  
+.tarefa > p{
+  width: 55%;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  height: 5vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.none{
+  display: none;
+}
