@@ -10,37 +10,10 @@ body{
   background-color: #001e1d;
 }
 
-.App{
-  box-shadow: 1px 2px 21px 5px black;
-}
-
-p{
-  color: #001e1d;
-  font-weight: bold;
-}
-
 .flex-row{
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-button{
-  min-width: 10%;
-  min-height: 5vh;
-  font-size: 1em;
-  margin-left: 1%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  border-radius: 10px;
-  background-color: #f9bc60;
-}
-
-input{
-  background-color: #abd1c6;
-  border: none;
 }
 
 .none{

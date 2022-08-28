@@ -22,6 +22,11 @@ input::placeholder{
     color: #001e1d;
 }
 
-button{
-    margin-top: 2%;
-}
+@media screen and (max-width:500px){
+    label{
+        font-size: 0.8em;
+    }
+    input{
+        width: 80%;
+    }
+  }

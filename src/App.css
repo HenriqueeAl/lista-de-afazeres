@@ -1,5 +1,5 @@
 .App{
-  width: 40%;
+  width: 50%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -8,11 +8,38 @@
   margin-bottom: 4%;
   border-radius: 10px;
   background-color: #004643;
+  box-shadow: 1px 2px 21px 5px black;
 }
 
 .App > h1{
   font-size: 50px;
   margin-top: 2%;
+}
+
+p{
+  color: #001e1d;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+button{
+  min-width: 10%;
+  min-height: 5vh;
+  font-size: 1em;
+  margin-left: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #f9bc60;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+input{
+  background-color: #abd1c6;
+  border: none;
 }
 
 .line{
@@ -22,13 +49,33 @@
   margin: 2%;
 }
 
-.tarefas{
-  width: 90%;
-}
-
 .w100{
   width: 90%;
   display: flex;
   justify-content: center;
   margin-bottom: 2%;
+}
+
+@media screen and (max-width:1000px){
+  .App{
+    width: 60%;
+  }
+}
+
+@media screen and (max-width:700px){
+  .App{
+    width: 70%;
+  }
+  p{
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width:500px){
+  .App{
+    width: 85%;
+  }
+  .App > h1{
+    font-size: 2em;
+  }
 }
