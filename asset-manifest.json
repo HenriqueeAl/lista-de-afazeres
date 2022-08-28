@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lista-de-afazeres/static/css/main.1015708d.css",
+    "main.js": "/lista-de-afazeres/static/js/main.1e9692c8.js",
+    "index.html": "/lista-de-afazeres/index.html",
+    "main.1015708d.css.map": "/lista-de-afazeres/static/css/main.1015708d.css.map",
+    "main.1e9692c8.js.map": "/lista-de-afazeres/static/js/main.1e9692c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1015708d.css",
+    "static/js/main.1e9692c8.js"
+  ]
+}
