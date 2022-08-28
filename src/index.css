@@ -25,4 +25,5 @@ body{
   border-radius: 10px;
   text-decoration: line-through;
   color: #001e1d;
+  transition: 500ms;
 }
